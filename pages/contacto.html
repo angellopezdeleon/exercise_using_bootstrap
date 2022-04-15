@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredoka">
+        <link rel="stylesheet" href="../style.css">
+        <title>Nodal Films CONTACTO</title>
+        <link rel="shortcut icon" href="../images/logos/nodalFavicon.png" type="image/x-icon">
+      </head>
+<body class="container-fluid text-white">
+    <nav class="navbar navbar-expand-lg black navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand col-7" href="../index.html"><img class="col-7" src="../images/logos/soloNodalLogo2.png" alt="Logotipo Nodal"/></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
+          <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll text-end" style="--bs-scroll-height: 100px;">
+            <li class="nav-item py-0 pl-3">
+              <a class="nav-link py-0 pl-3" href="trabajos.html">TRABAJOS</a>
+            </li>
+            <li class="nav-item py-0 pl-3">
+              <a class="nav-link py-0 pl-3" href="servicios.html" tabindex="-1">SERVICIOS</a>
+            </li>
+            <li class="nav-item py-0 pl-3">
+              <a class="nav-link py-0 pl-3" href="contacto.html" tabindex="-2">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Formulario de contacto básico -->
+    <main class="container">
+    <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="validationCustom01" value="Juan" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Apellidos</label>
+          <input type="text" class="form-control" id="validationCustom02" value="López" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="exampleFormControlInput1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="validationCustom03" placeholder="name@example.com">
+        </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">País</label>
+          <input type="text" class="form-control" id="validationCustom04" required>
+          <div class="invalid-feedback">
+            Por favor, rellene esta casilla.
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom04" class="form-label">Soy...</label>
+          <select class="form-select" id="validationCustom05" required>
+            <option selected value="">Empresa</option>
+            <option selected value="">Particular</option>
+            <option selected value="">Productora</option>
+            <option selected value="">Otros</option>
+          </select>
+          <div class="invalid-feedback">
+            Por favor, elija una opción.
+          </div>
+        </div>
+        <div class="col-md-12">
+            <label for="exampleFormControlTextarea1" class="form-label">Escribenos</label>
+            <textarea class="form-control" id="validationCustom06" rows="3"></textarea>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Estoy de acuerdo con los terminos y condiciones.
+            </label>
+            <div class="invalid-feedback">
+              Debe estar de acuerdo con los terminos y condiciones para continuar.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-secondary" type="submit">Enviar</button>
+        </div>
+      </form>
+    </main>
+
+    <!-- <div class="container my-4">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email</label>
+          <input type="email" class="form-control black" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Escribenos</label>
+          <textarea class="form-control black" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary justify-content-center black">Submit</button>
+    </div> -->
+
+    <!-- <main id="main__form">
+        <h1 id="form__h1">C<span>●</span>ntáctan<span>●</span>s</h1>
+        <form id="form__contact" action="envio.php" method="post">
+            <input type="text" placeholder=" Nombre" class="form__element" id="form__nombre">
+            <input type="text" placeholder=" Apellidos" class="form__element" id="form__apellido">
+            <input type="email" placeholder=" Email" class="form__element" id="form__email">
+                <select for="soy" class="form__element" id="form__select">
+                    <option value="">  Selecciona una opción:</option>
+                    <option value="Particular"> Particular</option>
+                    <option value="Empresa"> Empresa</option>
+                    <option value="Productora colaboradora"> Productora colaboradora</option>
+                </select>
+            <input type="text" placeholder=" Título mensaje" class="form__element" id="form__title__menssage">
+            <textarea rows="6" cols="180 type="text" placeholder=" Deja aquí tu mensaje" class="form__element" id="form__textarea"></textarea>
+            <input id="form__button" type="submit" value="Enviar" class="form__element" id="form__button">
+        </form>
+    </main> -->
+
+    <div class="container-fluid">
+        <footer class="d-flex flex-column flex-sm-row flex-nowrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-sm-4 col-12 d-flex flex-column align-items-center">
+            <h3>Dirección</h3>
+            <p class="text-center">C/ Luis de Hoyos Sainz, 112<br>28030 Madrid</p>
+          </div>
+          <ul class="nav col-sm-4 col-12 justify-content-center list-unstyled d-flex">
+            <li class="m-2"><a href="https://twitter.com/"><img class="bi" src="../images/logos/twitterLogo.png" width="45" height="45"></a></li>
+            <li class="m-2"><a href="https://www.instagram.com/"><img class="bi" src="../images/logos/instagramLogo.png" width="45" height="45"></a></li>
+            <li class="m-2"><a href="https://www.behance.net/"><img class="bi" src="../images/logos/behanceLogo.png" width="45" height="45"></a></li>
+          </ul>
+          <div class="col-sm-4 col-12 d-flex flex-column align-items-center justify-content-end">
+            <a class="text-center" href="quieresColaborar.html"><h3>¿Quieres colaborar?</h3></a>
+            <p class="text-center">Nosotros queremos colaborar contigo.</p>
+          </div>
+        </footer>
+      </div>
+      <script src="../js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
