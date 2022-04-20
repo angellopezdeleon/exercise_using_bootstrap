@@ -1,13 +1,19 @@
-* {
-    margin: 0;
-    padding: 0;
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Fredoka";
+  scroll-behavior: smooth;
+}
+a:hover{
+  cursor: pointer;
 }
 
 body {
     background-color: black;
     text-shadow: rgb(49, 49, 49) 0.05em 0.05em 0.05em;
-    font-family: "Fredoka";
-    min-width: 200px;
 }
 
 .black {
@@ -35,6 +41,7 @@ li {
 
 a:hover{
     color: rgb(197, 48, 48);
+    transition: all 1s;
   }
 
 a {
@@ -43,6 +50,32 @@ a {
     color: white;
   }
 
-  span {
-    color: #C23431;
-  }
+span {
+  color: #C23431;
+}
+
+.project {
+  overflow: hidden;
+  border-radius: 0;
+}
+
+.project img {
+  
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+}
+
+.project:hover {
+  color:#f73f3b;
+  text-shadow: rgb(240, 240, 240) 0.02em 0.02em 0.02em;
+  font-size: 4.2vw;
+  cursor: pointer;
+  transition: all 2s;
+}
+
+.project:hover img {
+  transform: scale(1.08);
+  opacity: 0.3;
+  transition: all 2s;
+}
